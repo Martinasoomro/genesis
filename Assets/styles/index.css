@@ -1,0 +1,120 @@
+body {
+  height: 100vh;
+  display: grid;
+  font-family: "Muli", sans-serif;
+  color: black;
+  background: #ffffff;
+  padding-left: 126px;
+  padding-right: 124px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  font-family: Muli, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: -0.346154px;
+  color: #111111;
+}
+
+.logo {
+  margin-bottom: 98px;
+  margin-right: 856.8px;
+}
+
+.right {
+  list-style: none;
+}
+
+.projects {
+  margin-right: 29px;
+  height: 23px;
+  left: 85.39%;
+  right: 8.57%;
+  top: calc(50% - 23px / 2);
+}
+
+.contact {
+  margin-right: 125px;
+  height: 23px;
+  left: 94.05%;
+  right: 0%;
+  top: calc(50% - 23px / 2);
+}
+
+li {
+  list-style: none;
+  display: flex;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(12 1fr);
+  grid-template-rows: repeat();
+}
+
+.genital {
+  grid-column: 1/6;
+  width: 475px;
+  margin-bottom: 40px;
+  font-family: Muli;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 55px;
+  color: #111111;
+}
+
+.there-are {
+  grid-column: 1/8;
+  width: 635px;
+  font-family: Muli;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #111111;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+.table {
+  grid-column: 9/13;
+  width: 335px;
+  position: absolute;
+  width: 335px;
+  height: 343px;
+  left: 900px;
+  top: 222px;
+  font-family: Muli;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  color: #111111;
+}
+
+.opacity {
+  font-family: Muli;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  color: #111111;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+
+.image-1 {
+  grid-column: 1/13;
+  margin-top: 61px;
+}
